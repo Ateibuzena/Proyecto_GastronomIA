@@ -5,7 +5,7 @@ import numpy as np
 #st.title(body = ":violet[RECOMENDADOR DE RESTAURANTES DE MADRID]")
 st.markdown("<h1 style='text-align: center; color: pink;'>RECOMENDADOR DE RESTAURANTES DE MADRID</h1>", unsafe_allow_html=True)
 
-df_filtrado = pd.read_csv(r"C:\Users\enaat\Documents\Repositorios\Proyecto_restaurante\Data\df_filtrado_madrid.csv")
+df_filtrado = pd.read_csv(r"Data/df_filtrado_madrid.csv")
 df_filtrado.drop("Unnamed: 0", axis=1, inplace=True)
 
 lista_nombres = set(df_filtrado.Nombre)
