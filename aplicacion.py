@@ -9,10 +9,12 @@ df_filtrado = pd.read_csv(r"Data/df_filtrado_madrid.csv")
 df_filtrado.drop("Unnamed: 0", axis=1, inplace=True)
 
 lista_nombres = set(df_filtrado.Nombre)
+lista_puntuacion = [i for i in range(1,11)]
 
 opcion_seleccion = st.selectbox(label = ":violet[SELECCIONA UN RESTAURANTE]", options=lista_nombres)
 
-puntuacion_seleccion = st.number_input(key="i_1", label=":violet[Puntua el restaurante del 1 al 10:]", step=1, max_value=10, min_value=1)
+#puntuacion_seleccion = st.number_input(key="i_1", label=":violet[Puntua el restaurante del 1 al 10:]", step=1, max_value=10, min_value=1)
+puntuacion_seleccion = st.selectbox(label = ":violet[SELECCIONA UNA PUNTUACIÓN]", options=lista_puntuacion, key="s_2")
 
 
 # Utilizar st.session_state para almacenar la lista_puntuados
@@ -28,11 +30,15 @@ def añadir(opcion_seleccion, puntuacion_seleccion):
                     "Puntuacion": puntuacion_seleccion}
         st.session_state.lista_puntuados.append(diccionario)
 
-        st.write("Puntuación añadida exitosamente")
+        st.write(":violet[Puntuación añadida exitosamente]")
     else:
-        st.write("La puntuación de este restaurante ya existe")
+        st.write(":violet[La puntuación de este restaurante ya existe]")
 
 def recomendar():
+
+    if len(st.session_state.lista_puntuados) == 0:
+        return st.write(":violet[No puntuaste ningún restaurante]")
+    
     df_usuario = pd.DataFrame(st.session_state.lista_puntuados)
     # Concatenar los DataFrames basándose en la columna común
     df_usuario = pd.merge(df_filtrado, df_usuario, on='Nombre', how='left')
