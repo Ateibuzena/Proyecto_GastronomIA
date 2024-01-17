@@ -1,0 +1,21 @@
+name,model,accuracy,recall,f1_score,cm,roc_auc_score,params
+DecisionTreeClassifier(random_state=42),DecisionTreeClassifier(random_state=42),0.48536209553158705,0.40060943000370236,0.40153535550692343,"[[209  34  42  23  33]
+ [ 42  15  25  29  21]
+ [ 33  20  67  74  66]
+ [ 22  17  68 172 220]
+ [ 25  13  38 157 482]]",0.6306836109220242,"{'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'random_state': 42, 'splitter': 'best'}"
+RandomForestClassifier(random_state=42),RandomForestClassifier(random_state=42),0.576271186440678,0.4378286447321291,0.4120699605258708,"[[274   4   3  27  33]
+ [ 57   4  11  37  23]
+ [ 50   3  21 111  75]
+ [ 19   3   8 204 265]
+ [ 13   0   1  82 619]]",0.6584534717412659,"{'bootstrap': True, 'ccp_alpha': 0.0, 'class_weight': None, 'criterion': 'gini', 'max_depth': None, 'max_features': 'sqrt', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': 42, 'verbose': 0, 'warm_start': False}"
+AdaBoostClassifier(random_state=42),AdaBoostClassifier(random_state=42),0.5413456599897278,0.43109274116320473,0.42414930998249833,"[[253  14  18   7  49]
+ [ 55   4  24  15  34]
+ [ 33  10  60  76  81]
+ [ 16   8  45 201 229]
+ [ 12   1  12 154 536]]",0.6513342036712458,"{'algorithm': 'SAMME.R', 'base_estimator': 'deprecated', 'estimator': None, 'learning_rate': 1.0, 'n_estimators': 50, 'random_state': 42}"
+GradientBoostingClassifier(random_state=42),GradientBoostingClassifier(random_state=42),0.5695942475603493,0.4458090027713145,0.44082811464989896,"[[254  10   4  24  49]
+ [ 50   5  19  31  27]
+ [ 29   4  54 108  65]
+ [ 15   0  31 207 246]
+ [  7   1   3 115 589]]",0.6617991269543633,"{'ccp_alpha': 0.0, 'criterion': 'friedman_mse', 'init': None, 'learning_rate': 0.1, 'loss': 'log_loss', 'max_depth': 3, 'max_features': None, 'max_leaf_nodes': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 1, 'min_samples_split': 2, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_iter_no_change': None, 'random_state': 42, 'subsample': 1.0, 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': 0, 'warm_start': False}"
