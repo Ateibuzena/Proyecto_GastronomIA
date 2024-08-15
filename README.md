@@ -1,6 +1,3 @@
-Aquí tienes el contenido en formato Markdown:
-
-```markdown
 ## **Restaurant Clustering, Recommendation, and Rating Prediction Project** ##
 
 This project consists of three main parts:
@@ -52,4 +49,3 @@ This project reflects our interest in exploring and applying unsupervised learni
 📱 603346655  
 👨‍💻 [LinkedIn](https://www.linkedin.com/in/valentinabolivar/)  
 🐱 [GitLab](https://gitlab.com/valentinabolivar)
-```
