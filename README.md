@@ -1,79 +1,55 @@
-## **Proyecto de Clustering, Recomendación y Predicción de Ratings para Restaurantes** ##
+Aquí tienes el contenido en formato Markdown:
 
-Este proyecto se compone de tres partes principales:
+```markdown
+## **Restaurant Clustering, Recommendation, and Rating Prediction Project** ##
 
-#### **Clustering de Restaurantes en Madrid** 🗺️ ####
-Hemos aplicado técnicas de clustering utilizando el algoritmo **DBSCAN** y **KMeans** para agrupar restaurantes en Madrid. Los distintos clusters se forman en base a diversas características, principalmente el tipo de cocina, y se diferencian principalmente por el rango de precios. Esta parte del proyecto ofrece una visión estructurada de la diversidad de restaurantes en la ciudad y a quién van dirigidos.
+This project consists of three main parts:
 
-#### **Recomendadores de Restaurantes** 🍽️ ####
-Hemos desarrollado dos recomendadores de restaurantes, uno centrado en Madrid y otro en México, mediante una aplicación **web interactiva** creada con la biblioteca **Streamlit**. Estos recomendadores se basan en las puntuaciones que los usuarios otorgan a una serie de restaurantes. Utilizando esta información, el sistema recomienda otros restaurantes similares en función de sus características. Esta funcionalidad proporciona a los usuarios sugerencias personalizadas basadas en sus preferencias gastronómicas.
+#### **Clustering of Restaurants in Madrid** 🗺️ ####
+We applied clustering techniques using the **DBSCAN** and **KMeans** algorithms to group restaurants in Madrid. The different clusters are formed based on various characteristics, primarily the type of cuisine, and are mainly differentiated by price range. This part of the project provides a structured view of the diversity of restaurants in the city and their target audience.
 
-#### **Modelo Predictivo de Ratings** 🌟 ####
-Implementamos un modelo predictivo para estimar las calificaciones de los restaurantes según las revisiones proporcionadas por los usuarios. Logramos una tasa de predicción de más del 50%, lo que proporciona información valiosa sobre cómo los usuarios evalúan diferentes restaurantes.
+#### **Restaurant Recommenders** 🍽️ ####
+We developed two restaurant recommenders, one focused on Madrid and the other on Mexico, through an **interactive web application** created with the **Streamlit** library. These recommenders are based on the ratings users give to a series of restaurants. Using this information, the system recommends other similar restaurants based on their characteristics. This functionality provides users with personalized suggestions based on their culinary preferences.
 
-Este proyecto refleja nuestro interés en explorar y aplicar técnicas de aprendizaje no supervisado, recomendación y predicción en el contexto de la industria de restaurantes, brindando perspectivas útiles y soluciones prácticas. **¡Explora el código y disfruta de las funcionalidades ofrecidas por cada componente!** 🚀
+#### **Rating Prediction Model** 🌟 ####
+We implemented a predictive model to estimate restaurant ratings based on user reviews. We achieved a prediction rate of over 50%, providing valuable insights into how users evaluate different restaurants.
 
-#### **Enlaces de interés:** ####
-- Recomendador de restaurantes de México -> https://turecomendadorfavorito.streamlit.app/
-- Recomendador de restaurantes de Madrid -> https://restaurantsrecomendator.streamlit.app/
+This project reflects our interest in exploring and applying unsupervised learning, recommendation, and prediction techniques in the restaurant industry context, offering useful insights and practical solutions. **Explore the code and enjoy the features offered by each component!** 🚀
 
-#### Equipo: ####
-<img src="../Data/imagen_equipo.jpg" alt="Equipo" style="width: 100px; height: 100px; margin-left: 20px;">
- 
+#### **Useful Links:** ####
+- Mexico Restaurant Recommender -> [https://turecomendadorfavorito.streamlit.app/](https://turecomendadorfavorito.streamlit.app/)
+- Madrid Restaurant Recommender -> [https://restaurantsrecomendator.streamlit.app/](https://restaurantsrecomendator.streamlit.app/)
 
-<div style="display: flex; align-items: center;">
-  <div>
-    <h2>Ana Zubieta</h2>
-    <p>:email: ena.ateibuz@gmail.com <br>
-        &#x1F4F1; 681958123 <br>
-        &#x1F468;&#x200D;&#x1F4BB; [https://www.linkedin.com/in/ana-zubieta](https://www.linkedin.com/in/ana-zubieta/) <br>
-        &#x1F431; [@Ateibuzena](https://github.com/Ateibuzena)
-    </p>
-  </div>
-</div>
+#### Team: ####
+![Team](../Data/imagen_equipo.jpg)
 
-<div style="display: flex; align-items: center;">
-  <div>
-    <h2>Daniel Villa Rayo</h2>
-    <p>:email: DanielVillaRayo@gmail.com <br>
-        &#x1F4F1; 647763325 <br>
-        &#x1F468;&#x200D;&#x1F4BB; [https://www.linkedin.com/in/dvr0001/](https://www.linkedin.com/in/dvr0001/) <br>
-        &#x1F431; [@Malosy26](https://github.com/Malosy26)
-    </p>
-  </div>
-</div>
+### Ana Zubieta ###
+:email: ena.ateibuz@gmail.com  
+📱 681958123  
+👨‍💻 [LinkedIn](https://www.linkedin.com/in/ana-zubieta)  
+🐱 [GitHub](https://github.com/Ateibuzena)
 
-<div style="display: flex; align-items: center;">
-  <div>
-    <h2>Lorena Martínez García</h2>
-    <p>:email: lorena.aljorra1994@gmail.com <br>
-        &#x1F4F1; 620031491 <br>
-        &#x1F468;&#x200D;&#x1F4BB; [https://www.linkedin.com/in/lorenamtnez/](https://www.linkedin.com/in/lorenamtnez/) <br>
-        &#x1F431; [@LorenaMtnez94](https://github.com/LorenaMtnez94")
-    </p>
-  </div>
-</div>
+### Daniel Villa Rayo ###
+:email: DanielVillaRayo@gmail.com  
+📱 647763325  
+👨‍💻 [LinkedIn](https://www.linkedin.com/in/dvr0001/)  
+🐱 [GitHub](https://github.com/Malosy26)
 
-<div style="display: flex; align-items: center;">
-  <div>
-    <h2>María Gómez Román</h2>
-    <p>:email: mariagomezr96@gmail.com <br>
-        &#x1F4F1; 630867766 <br>
-        &#x1F468;&#x200D;&#x1F4BB; [https://www.linkedin.com/in/mariagomezroman/](https://www.linkedin.com/in/mariagomezroman/) <br>
-        &#x1F431; [@mariagomez96-stack](https://github.com/mariagomez96-stack)
-    </p>
-  </div>
-</div>
+### Lorena Martínez García ###
+:email: lorena.aljorra1994@gmail.com  
+📱 620031491  
+👨‍💻 [LinkedIn](https://www.linkedin.com/in/lorenamtnez/)  
+🐱 [GitHub](https://github.com/LorenaMtnez94)
 
-<div style="display: flex; align-items: center;">
-  <div>
-    <h2>Valentina Bolívar </h2>
-    <p>:email: valentinabolivar@gmail.com <br>
-        &#x1F4F1; 603346655 <br>
-        &#x1F468;&#x200D;&#x1F4BB; [https://www.linkedin.com/in/valentinabolivar/](https://www.linkedin.com/in/valentinabolivar/) <br>
-        &#x1F431; [@valentinabolivar](https://gitlab.com/valentinabolivar)
-    </p>
-  </div>
-</div>
+### María Gómez Román ###
+:email: mariagomezr96@gmail.com  
+📱 630867766  
+👨‍💻 [LinkedIn](https://www.linkedin.com/in/mariagomezroman/)  
+🐱 [GitHub](https://github.com/mariagomez96-stack)
 
-
+### Valentina Bolívar ###
+:email: valentinabolivar@gmail.com  
+📱 603346655  
+👨‍💻 [LinkedIn](https://www.linkedin.com/in/valentinabolivar/)  
+🐱 [GitLab](https://gitlab.com/valentinabolivar)
+```
